@@ -1,0 +1,223 @@
+/* moblie view */
+@media screen and (max-width:575px){
+    /* header */
+        .navbar{
+            background: linear-gradient(to top right, #0099ff 42%, #ccffff 100%);
+        }
+    
+        .logo img{
+            width: 100% !important;
+            padding: 5px;
+        }
+    
+        .carousel-item{
+            height: 30vh !important;
+            margin-top:55px;
+        }
+    
+        #mainNav{
+            display: none;
+        }
+        #web-cont-qual{
+            display: none;
+        }
+        #iso{
+            display: none;
+        }
+        .hr-text:after, .section-art{
+            font-size: 36px;
+        }
+        
+    /* about */
+        #about{
+            background-image: linear-gradient(353deg, #4CBFFF  6% ,white 7.5%);
+        }
+        .img1 img{
+            height: 150px;
+        }
+    
+        .abt-txt{
+            font-size: 15px;
+            line-height: 1.3em;
+            padding: 0 5px 0 5px;
+        }
+        #abt-web{
+            display: none;
+        }
+    /* ships */
+        .ship_cont img{
+            width: 85%;
+            height: 150px;
+        }
+        .modal-content img{
+            height: 200px !important;
+        }
+        .ship_cont{
+            margin-top:100px;
+            margin-right:10px;
+            margin-left:10px;
+            padding: 0 10px 0 10px;
+        }
+        .modal-body img{
+            width: 300px;
+            height: 200px !important;
+        }
+        .ship-web{
+            display: none;
+        }
+    /* quality */
+    #quality{
+        background-image: linear-gradient(353.5deg, white  96% ,#4CBFFF 97%);
+        padding-top: 100px;
+    }
+    
+    .new_row h3{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .new_row img{
+        height: 200px;
+    }
+    /* news */
+        .news-link-text{
+            display:none;
+        }
+        .news-link-head{
+            font-size: 12px;
+        }
+    /* opportunity */
+        .opt-text h2{
+            font-size: 23px;
+        }
+        .opt-hire{
+            margin:10px;
+            padding-top:10px;
+        }
+    
+    
+    
+    /* quality */
+    .new_row h3{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    /* contact */
+        .map{
+            margin-top: 10px !important;
+    
+        }
+        .borderDivider{
+            margin-top:40px;
+            padding-top:10px;
+            height: auto;
+            border-top: solid 1px rgba(0, 0, 0, 0.2);
+        }
+        .borderDivider li a{
+            font-size: 13px;
+            line-height: 1em;
+    
+        }
+        .sidebar-header{
+            font-size: 16px;
+        }
+        .opt-body-upload img{
+            width: 100%;
+        }
+        
+    }
+    
+    
+    
+    /* tablet view */
+    @media screen and (min-width:576px) and (max-width:993px){
+    
+        .logo img{
+            width: 70% !important;
+            padding: 5px;
+        }
+        #mainNav{
+            display: none;
+        }
+        
+        nav ul li a{
+            font-size: 20px;
+        }
+        /* about */   
+        #abt-web{
+            display: none;
+        }
+    
+        #iso{
+            display: none;
+        }
+    
+        /* ships */
+        .ship_cont-img{
+            height: 150px;
+        }
+        .modal-content img{
+            height: 200px !important;
+        }
+        /* QUAL */
+        header{
+            font-size:20px;
+            line-height: 25px;
+        }
+        .qual p{
+            font-size: 12px;
+        }
+        /* opportunity */
+        .opt-text h2{
+            font-size: 23px;
+        }
+        .news-link-text{
+            display:none;
+        }
+    
+    /* contact */
+        .map{
+            margin-top: 10px !important;
+        }
+    /* new-body */
+    .opt-body-upload img{
+        width: 50%;
+    }
+    }
+    
+    
+    /* web view */
+    @media screen and (min-width:993px) and (max-width:3000px){
+        
+        nav li a{
+            font-size: 15px;
+            
+        }
+        #mobNav{
+            display: none;
+        }
+    
+        section{
+            padding-top:70px;
+        }
+        #mob-cont-qual{
+            display: none;
+        }
+        #mob-cont-ship{
+            display: none;
+        }
+        #abt-mob{
+            display: none;
+        }
+        .opt-body-upload img{
+        width: 30%;
+        }
+        .ship-mob{
+            display: none;
+        }
+    
+    }
+    

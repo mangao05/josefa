@@ -1,0 +1,171 @@
+
+.img-container{
+	max-width: 600px;
+	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	-webkit-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 2px 7px 0px rgba(0,0,0,0.75); 
+
+}
+.img-container img{
+	width: 100%;
+}
+/* .btn-ship{
+	outline: none;
+	border: none;
+	text-decoration: none;
+	border-radius: 5px;
+	margin: 0;
+	padding: 0.5rem 1rem;
+	background: #428bca;
+	color: #f9f9f9;
+	font-size: 1.3rem;
+	transition: 0.3s transform cubic-bezier(.55,-0.87,.44,1.91);
+	box-shadow: 0 0 10px rgba(0,0,0,0.4)
+} */
+/*====================================
+Hover Effect
+=====================================*/
+.img-container .overlay{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 140, 255, 0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	transition: 0.35s;
+}
+.overlay h1{
+	font-size: 50px;
+	color:whitesmoke;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.overlay a{
+	font-size: 25px;
+	color: whitesmoke;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-container:hover .overlay{
+	left: 0;
+}
+.img-container .overlay:hover h1{
+	opacity: 1;
+	cursor: default;
+}
+.img-container .overlay:hover a{
+	opacity: 1;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+@media screen and (min-width:768px) and (max-width:990px){
+	.overlay h1{
+		font-size: 20px;
+	}
+	.overlay a{
+		font-size: 15px;
+	}
+	.btn-ship{
+		padding:8px;
+	}
+}
+/*====================================
+Hover Effect
+=====================================*/
+.ship_row{
+	margin: 35px auto 0 auto;
+    display: block;
+    width: 100%;
+}
+
+
+#ships-body-bg{
+    background:url("/images/mmov_5002.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: hsla(0,0%,100%,0.4);
+    background-blend-mode: overlay; 
+}
+
+#ship-footer{
+	text-align: center;
+	color: white;
+	
+}
+.ship_cont img{
+	width: 100%;
+}
+
+.ship_cont{
+	height: 100%;
+	margin-top:25px;
+	margin-right:15px;
+	margin-left:15px;
+	padding: 0 20px 0 20px;
+}
+.ship_cont img{
+	display:block;
+	margin: 5px auto !important;
+	border: solid 2px white;
+	border-radius: 10px;
+}
+
+.ship_cont h5{
+	text-align: center;
+	color:white;
+	text-shadow: 1px 1px black;
+}
+.ship_cont p{
+	text-align:center;
+	font-weight: bold;
+
+}
+
+.modal-content h4{
+	padding: 5px 0 0 40px;
+}
+
+.modal-footer{
+	border-top: none !important;
+}
+
+.modal-body img{
+	width: 100%;
+	height:300px;
+	
+}
+
+.image-ship, .ship_info{
+	height: 250px;
+}
+.newImage{
+	width: 80%!important;
+	margin: 0 auto;
+	display: block;
+}
+
+#allships-body{
+	background-image: linear-gradient(342deg, #4CBFFF  50% ,white 51%);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position: center;
+
+}
+
+#hull_number{
+	font-weight: 500;
+	font-size: 20px;
+}

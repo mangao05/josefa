@@ -1,0 +1,41 @@
+#firstslide{
+    background-image: url('/images/silagan_Express.png')!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+#secondslide{
+    background-image: url('/images/mmov_5002.png')!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+#thirdslide{
+    background-image: url('/images/waraya.jpg')!important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: overlay;
+
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    z-index: -1;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}

@@ -1,0 +1,23 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+@import "~admin-lte/dist/css/adminlte.css";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~summernote/dist/summernote-bs4.css';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+
+
+.side a.nav-link.menu-open  {
+
+    background-color: green !important;
+}
+.side a.nav-link {
+    color:white !important;
+}
